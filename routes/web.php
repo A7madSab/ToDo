@@ -16,3 +16,5 @@ Route::get('/', function () {
 */
 
 Route::get('/','PagesController@home');
+
+Route::resource('task', 'TasksController');
